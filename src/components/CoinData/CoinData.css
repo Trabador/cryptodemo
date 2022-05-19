@@ -1,0 +1,46 @@
+.container {
+  padding: 30px;
+}
+
+.coinImage {
+  width: 200px;
+  height: 200px;
+}
+
+.coinName {
+  font-size: 3rem;
+}
+
+.coinRank {
+  font-size: 2rem;
+}
+
+.coinPrice {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 520px) {
+  .coinImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .coinName {
+    font-size: 1.5rem;
+  }
+
+  .coinPrice.coinRank {
+    font-size: 1rem;
+  }
+
+  .coinChart {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .coinImage {
+    width: 50px;
+    height: 50px;
+  }
+}

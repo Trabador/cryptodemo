@@ -1,0 +1,15 @@
+.coinRow {
+  background-color: #252323;
+  cursor: pointer;
+}
+
+.coinRow:hover {
+  background-color: #413d3d;
+}
+
+.coinContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}

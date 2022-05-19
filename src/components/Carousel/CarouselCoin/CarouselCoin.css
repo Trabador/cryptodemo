@@ -1,0 +1,17 @@
+.carouselCoin {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.coinImg {
+  width: 80px;
+  height: 80px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.customButton {
+  color: whitesmoke;
+  border-color: #cc5e04;
+}
+
+.customButton:hover {
+  border-color: rgb(250, 140, 49);
+  background-color: rgb(110, 106, 106);
+}
